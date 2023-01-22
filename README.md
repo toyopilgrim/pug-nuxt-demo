@@ -1,0 +1,1 @@
+# pug-nuxt-demo
