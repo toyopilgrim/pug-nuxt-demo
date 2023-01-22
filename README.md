@@ -45,7 +45,7 @@ export default defineNuxtConfig({
     vue: {
       template: {
         preprocessOptions: {
-          basedir: createResolver(import.meta.url).resolve("./"),
+          basedir: createResolver(import.meta.url).resolve("./assets/pug"),
           // basedir: __dirname + "/assets/pug", This also works.
         },
       },
