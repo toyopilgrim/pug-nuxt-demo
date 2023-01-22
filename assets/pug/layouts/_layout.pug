@@ -1,0 +1,9 @@
+block vars
+  - pageClass = "layout"
+doctype html
+html(lang="ja")
+  body(class = pageClass)
+    block contents 
+      .content 
+        p Default contents.
+      include /components/_footer
